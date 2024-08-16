@@ -32,7 +32,8 @@
                     <li>
                         <form method="post" action="{{ route('logout') }}">
                             @csrf
-                            <button type="submit" class="text-left w-44">Logout</button>
+                                <button type="submit" class="min-w-44 text-left">Logout</button>
+
                         </form>
                     </li>
                 @endauth
